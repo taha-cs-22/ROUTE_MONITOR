@@ -1,10 +1,10 @@
-# 🚨 Route Monitor: Traffic Accident Detection with YOLOv8
+#  Route Monitor: Traffic Accident Detection with YOLOv8
 
 This system aims to **automatically detect traffic accidents** from real-time CCTV streams to significantly reduce emergency response times and improve road safety.
 
 ---
 
-## 1. ⚙️ Repository Setup & Environment
+## 1.  Repository Setup & Environment
 
 The project utilizes Python and the YOLOv8 framework, primarily developed within a **Google Colab** environment for GPU acceleration.
 
@@ -24,7 +24,7 @@ Route-Monitor-Accident-Detection/
 └── README.md
 
 
-## 2. 📊 Data Pipeline & Preprocessing
+## 2.  Data Pipeline & Preprocessing
 
 The project utilizes a dataset ranging from **10,000–30,000 labeled images** sourced from public datasets, CCTV frames, and augmented scenes, all annotated in **YOLO format** (`.txt` + `.jpg`).
 
@@ -47,7 +47,7 @@ EDA was performed to confirm class distribution and object sizing, guiding the c
 
 ---
 
-## 3. 🏃 How to Run the Project (Reproducibility)
+## 3.  How to Run the Project (Reproducibility)
 
 Follow these steps to reproduce the environment and run the Baseline Model training:
 
@@ -69,7 +69,7 @@ Follow these steps to reproduce the environment and run the Baseline Model train
 
 ---
 
-## 4. ⭐ Baseline Model Performance
+## 4.  Baseline Model Performance
 
 The initial model was trained using the simplest and fastest architecture, **YOLOv8 Nano (YOLOv8n)**, for 5 epochs to establish a reliable baseline score.
 
@@ -93,7 +93,7 @@ The confusion matrix visually confirms the high accuracy and minimal misclassifi
 
 ---
 
-## 5. 🔭 Future Work & Next Steps
+## 5.  Future Work & Next Steps
 
 The project plan includes continuous development focused on achieving higher accuracy and ensuring real-time deployment readiness.
 
