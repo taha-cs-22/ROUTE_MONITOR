@@ -22,7 +22,7 @@ Route-Monitor-Accident-Detection/
 ├── dataset.yaml        # YOLOv8 Configuration file
 ├── .gitignore          # Prevents large files (data/ and runs/) from being committed
 └── README.md
-
+```
 
 ## 2.  Data Pipeline & Preprocessing
 
