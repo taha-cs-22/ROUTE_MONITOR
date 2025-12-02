@@ -16,10 +16,8 @@ The repository is organized to separate code, documentation, and local data file
 Route-Monitor-Accident-Detection/
 ├── data/               # (LOCAL ONLY - Excluded by .gitignore)
 ├── notebooks/          # Jupyter Notebooks for analysis and training
-│   ├── 01_Data_Pipeline_EDA.ipynb
-│   └── 02_Baseline_Model_Training.ipynb
-├── src/                # Optional: Helper Python scripts
-├── dataset.yaml        # YOLOv8 Configuration file
+│   ├── ROUTE_MONITOR.ipynb
+├── dataset.yaml        # YOLO11n Configuration file
 ├── .gitignore          # Prevents large files (data/ and runs/) from being committed
 └── README.md
 ```
